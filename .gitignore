@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data & databases (never commit raw images or active DB binaries)
+data/raw/*
+data/processed/*
+data/persistence/*.db
+data/persistence/*.sqlite
+logs/*
+
+# OS & Environment
+.DS_Store
+.env
